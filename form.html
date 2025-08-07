@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+     .name {
+      border: 2px solid #4CAF50; /* green border */
+      padding: 20px;
+      width: 400px;
+      margin: 20px auto;
+      border-radius: 8px;
+      background-color: white;
+      display: flex;
+      justify-content: center;
+      margin-left: 380px;
+      vertical-align: top;
+    }
+      body{
+        font-family: arial;
+          margin: 0;
+      padding: 0;
+      height: 100vh;
+  background-image: url("bg.jpg");
+  background-size: fill;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  
+      }
+      .page{
+
+        display: flex;
+        justify-content: center;
+        width: 1000px;
+        height:920px;
+        border-color: green;
+        border-radius: 2px;
+      }
+      p{
+        font-family: arial;
+        font-size:15px;
+        margin-right:20px;
+        margin-bottom: 6px;
+      } 
+      .name{
+        display: flex;
+        flex-direction: column;
+      }
+      .nm{
+        width: 400px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+      }
+      .select-part{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-bottom: 23px;
+      }
+      .form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+    font-size: 15px;
+}
+.radioes{
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+.opinion{
+  margin-bottom: 10px;
+}
+button{
+  margin-top: 20px;
+  width: 400px;
+  height: 30px;
+  background-color: rgb(25, 221, 130);
+  border: none;
+  border-radius: 2px;
+  transition: width 1s,height 1s,background-color 0.3s;
+  color: rgba(255, 255, 255, 0.877);
+  font-size: 15px;
+}
+button:hover{
+  width: 405px;
+  height: 40px;
+  cursor: pointer;
+}
+button:active{
+background-color: rgb(20, 179, 104);;
+}
+img{
+  height: 50px;
+}
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <div class="name">
+        <img src="gfg-gg-logo (1).svg">
+        <p>Name</p>
+        <input class="nm" type="text" placeholder="Enter your name">
+        <p>Age</p>
+        <input class="nm" type="text" placeholder="Enter your age">
+        <p>Email</p>
+        <input class="nm" type="text" placeholder="Enter your email">
+        <p>Name</p>
+        <input class="nm" type="text" placeholder="Enter your name">
+        <p>Which option best describes you?</p>
+            <select class="select-part">
+                <option >Student</option>
+                <option >Intern</option>
+                <option>Professional</option>
+                <option >Other</option>
+            </select>
+            <label class="opinion">Would you recommend GeeksforGeeks to a friend?</label>
+           
+
+            <label for="recommed-1" class="radioes">
+                <input type="radio" id="recommed-1" name="recommed">Yes
+            </label>
+            <label for="recommed-2" class="radioes">
+                <input type="radio" id="recommed-2" name="recommed">No
+            </label>
+            <label for="recommed-3" class="radioes">
+                <input type="radio" id="recommed-3" name="recommed">Maybe
+            </label>
+            <p>Languages and Frameworks known (check all that apply)</p>
+                        </label>
+            <label for="inp-1">
+                <input type="checkbox" name="inp">C
+            </label>
+            <label for="inp-2">
+                <input type="checkbox" name="inp">C++
+            </label>
+            <label for="inp-3">
+                <input type="checkbox" name="inp">C#
+            </label>
+            <label for="inp-4">
+                <input type="checkbox" name="inp">Java
+            </label>
+            <label for="inp-5">
+                <input type="checkbox" name="inp">Python
+            </label>
+            <label for="inp-6">
+                <input type="checkbox" name="inp">JavaScript
+            </label>
+            <label for="inp-7">
+                <input type="checkbox" name="inp">React
+            </label>
+            <label for="inp-8">
+                <input type="checkbox" name="inp">Angular
+            </label>
+            <label for="inp-9">
+                <input type="checkbox" name="inp">Django
+            </label>
+            <label for="inp-10">
+                <input type="checkbox" name="inp">Spring
+            </label>
+            <button>Submit</button>
+            </div>
+      </div>
+      
+    </div>
+  </body>
+</html>
